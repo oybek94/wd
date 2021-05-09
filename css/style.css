@@ -62,3 +62,59 @@ html {
   color: #34547A;
 }
 
+/* SECTION HERO */
+
+.hero {
+  background-color: #EEEFF1;
+  padding-top: 140px;
+  padding-bottom: 146px;
+}
+
+.hero-texts {
+  position: relative;
+  max-width: 540px;
+  left: calc(50% + 5px);
+}
+
+.hero-texts::after {
+  position: absolute;
+  width: 357px;
+  height: 334px;
+  top: -15px;
+  left: -460px;
+  background-image: url("/img/comp.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 60px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 79px;
+  color: #222222;
+}
+
+.hero-text {
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 20px 36px;
+}
+
+.primary-btn {
+  color: #ffffff;
+  background-color: #34547A;
+  text-decoration: none;
+  border: 2px solid #34547A;
+  transition: background-color .3s ease;
+}
+
+.primary-btn:hover {
+  color: #34547A;
+  background-color: transparent;
+}
