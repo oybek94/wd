@@ -230,5 +230,38 @@ html {
   content: "";
 }
 
+/* HOW I WORK */
 
+.how {
+  position: relative;
+  padding: 100px 0;
+  background-color: #EEEFF1;
+}
+
+.how-text {
+  margin: 0 auto;
+  margin-bottom: 57px;
+  max-width: 540px;
+  text-align: center;
+}
+
+.play-btn {
+  position: absolute;
+  top: calc(50% + 58px);
+  left: calc(50% - 45px);
+}
+
+.video {
+  cursor: pointer;
+}
+
+.play-btn path{
+  transition: fill .3s ease;
+}
+
+.play-btn:hover path,
+.video:hover + .play-btn path{
+  fill: #34547A;
+  cursor: pointer;
+}
 
