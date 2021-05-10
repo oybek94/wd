@@ -184,8 +184,19 @@ html {
   color: #FFFFFF;
 }
 
+/* SKILLS */
+
 .skills {
   padding: 100px 0;
+}
+
+.desc-list {
+  padding-left: 50px;
+}
+
+.skills-wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
 .skills-title {
@@ -208,6 +219,7 @@ html {
 
 .skills-level::before {
   position: absolute;
+  display: block;
   width: 80%;
   height: 4px;
   top: 0;
@@ -217,4 +229,6 @@ html {
 
   content: "";
 }
+
+
 
