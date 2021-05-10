@@ -298,4 +298,62 @@ html {
   height: auto;
 }
 
+/* PARTNERS */
 
+.partners {
+  padding-top: 72px;
+  padding-bottom: 100px;
+}
+
+.partners-wrapper {
+  justify-content: space-between;
+}
+
+/* CONTACT US */
+
+.contact {
+  padding: 100px 0;
+  background-color: #EEEFF1;
+}
+
+.contact-text {
+  margin: 0 auto;
+  max-width: 540px;
+  margin-bottom: 65px;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 46%;
+  padding: 18px 20px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #fff;
+}
+
+textarea {
+  width: 98%;
+  padding: 18px 20px;
+  margin-bottom: 50px;
+  background-color: #fff;
+  border: none;
+}
+
+input[type="text"] {
+  margin-right: 30px;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-btn {
+  margin: 0 auto;
+}
