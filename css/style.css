@@ -357,3 +357,39 @@ input[type="text"] {
 .contact-btn {
   margin: 0 auto;
 }
+
+/* FOOTER */
+
+.footer {
+  padding: 50px 0;
+  background-color: #34547A;
+}
+
+.footer-wrapper {
+  justify-content: space-between;
+}
+
+.footer-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.copyright {
+  margin: 0;
+  font-size: 13px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.social-link {
+  margin-left: 22px;
+}
+
+.social-link:hover .social-logo path {
+  fill: #EEEFF1;
+}
+
